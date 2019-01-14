@@ -74,8 +74,9 @@ class MainViewController: UIViewController {
             } else {
                 let topClassifications = classifications.prefix(2)
                 let correctClassifications = topClassifications.sorted(by: { $0.confidence > $1.confidence })
-                self.resultLabel.text = String(format: "It's a %@!",
-                                               correctClassifications.first?.identifier ?? "")
+                
+                let identifier = correctClassifications.first?.identifier == "Cat" ? "Cat".localized : "Dog".localized
+                self.resultLabel.text = "It's a".localized + " " + identifier + "!"
             }
         }
     }

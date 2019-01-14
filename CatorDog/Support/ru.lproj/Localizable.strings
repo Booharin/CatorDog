@@ -6,5 +6,8 @@
   Copyright © 2019 Booharin. All rights reserved.
 */
 
+"Cat" = "Кошка";
 "Classifying..." = "Классифицируем...";
+"Dog" = "Собака";
+"It's a" = "Это";
 "Please, add a photo" = "Пожалуйста, добавьте фото";
