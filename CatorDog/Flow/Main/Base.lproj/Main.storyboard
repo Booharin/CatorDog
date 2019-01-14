@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="MainViewController" id="BYZ-38-t0r" customClass="MainViewController" customModule="CatorDog" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="A6p-xW-RRc">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qll-IZ-7R0">
+                                <rect key="frame" x="20" y="597" width="52" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="52" id="3eF-mw-47G"/>
+                                    <constraint firstAttribute="height" constant="50" id="CpO-Uf-bvo"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="icn_camera"/>
+                                <connections>
+                                    <action selector="takePhoto:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rqq-Zl-jUo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vTd-Ut-4QW">
+                                <rect key="frame" x="300" y="597" width="55" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="55" id="Yth-Oi-yj7"/>
+                                    <constraint firstAttribute="height" constant="50" id="rAT-xU-xU7"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="icn_gallery"/>
+                                <connections>
+                                    <action selector="takeFromGallery:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f3U-gV-m0X"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zqn-oG-8f5">
+                                <rect key="frame" x="20" y="489" width="335" height="28"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="24"/>
+                                <color key="textColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="A6p-xW-RRc" secondAttribute="bottom" id="06g-Or-7Lj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="A6p-xW-RRc" secondAttribute="trailing" id="68G-Fg-btE"/>
+                            <constraint firstItem="A6p-xW-RRc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="G9r-fh-Lwl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vTd-Ut-4QW" secondAttribute="trailing" constant="20" id="Jv9-de-526"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="vTd-Ut-4QW" secondAttribute="bottom" constant="20" id="K3o-KG-khm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Zqn-oG-8f5" secondAttribute="trailing" constant="20" id="MIR-pj-blX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qll-IZ-7R0" secondAttribute="bottom" constant="20" id="OuD-uY-KCd"/>
+                            <constraint firstItem="qll-IZ-7R0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="bXt-HE-2XY"/>
+                            <constraint firstItem="Zqn-oG-8f5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="lcb-TP-lQm"/>
+                            <constraint firstItem="A6p-xW-RRc" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="pgl-LW-2u8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Zqn-oG-8f5" secondAttribute="bottom" constant="150" id="qbn-92-Hhj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="A6p-xW-RRc" id="PEV-JS-jFR"/>
+                        <outlet property="resultLabel" destination="Zqn-oG-8f5" id="XVC-v3-ysy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53.600000000000001" y="26.53673163418291"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icn_camera" width="96" height="96"/>
+        <image name="icn_gallery" width="96" height="96"/>
+    </resources>
+</document>
