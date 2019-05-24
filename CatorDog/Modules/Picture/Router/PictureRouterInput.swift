@@ -7,6 +7,5 @@
 //
 
 protocol PictureRouterInput {
-    func toCamera()
-    func toGallery()
+    
 }

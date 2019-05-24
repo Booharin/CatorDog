@@ -7,6 +7,10 @@
 //
 import UIKit
 
+protocol HasPictureService {
+    var pictureService: IPictureService { get set }
+}
+
 protocol IPictureService {
     func getResultLabel(rect: CGRect) -> UILabel
     func getCameraButton(rect: CGRect) -> UIButton

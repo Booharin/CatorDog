@@ -10,11 +10,18 @@ import CoreML
 import Vision
 import ImageIO
 
+protocol HasCoreMLService {
+    var coreMLService: ICoreMLService { get set }
+}
+
 protocol CoreMLServiceDelegate: class {
     func updateResultLabel(text: String)
 }
 
 protocol ICoreMLService {
+    var delegate: CoreMLServiceDelegate? { get set }
+    var classificationRequest: VNCoreMLRequest { get set }
+    
     func updateClassifications(for image: UIImage)
     func processClassifications(for request: VNRequest, error: Error?)
 }

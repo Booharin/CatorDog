@@ -18,6 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow()
         window?.makeKeyAndVisible()
         
+        DI.dependencies = AppDIContainer().createAppDependencies()
+        
         coordinator = ApplicationCoordinator()
         coordinator?.start()
         
