@@ -12,10 +12,10 @@
 		D91101C82297D7B70043C1A0 /* PicturePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91101C72297D7B70043C1A0 /* PicturePresenter.swift */; };
 		D91101CC2297D8110043C1A0 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91101CB2297D8110043C1A0 /* MainRouter.swift */; };
 		D91101CE2297D87D0043C1A0 /* PictureRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91101CD2297D87D0043C1A0 /* PictureRouterInput.swift */; };
-		D91101D02297D9090043C1A0 /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91101CF2297D9090043C1A0 /* PictureViewController.swift */; };
 		D91101D22297D9E80043C1A0 /* PicturePresenterOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91101D12297D9E80043C1A0 /* PicturePresenterOutput.swift */; };
 		D91101D42297DA9B0043C1A0 /* PicturePresenterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91101D32297DA9B0043C1A0 /* PicturePresenterInput.swift */; };
 		D91101D82297EDBC0043C1A0 /* PictureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91101D72297EDBC0043C1A0 /* PictureService.swift */; };
+		D91101DA2297F9540043C1A0 /* CoreMLService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91101D92297F9540043C1A0 /* CoreMLService.swift */; };
 		D98219BB21EA7EA50082389E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98219BA21EA7EA50082389E /* AppDelegate.swift */; };
 		D98219C021EA7EA50082389E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98219BE21EA7EA50082389E /* Main.storyboard */; };
 		D98219C221EA7EA50082389E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98219C121EA7EA50082389E /* Assets.xcassets */; };
@@ -23,7 +23,6 @@
 		D98219D421EA826E0082389E /* ApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98219D321EA826E0082389E /* ApplicationCoordinator.swift */; };
 		D98219D621EA82A00082389E /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98219D521EA82A00082389E /* BaseCoordinator.swift */; };
 		D98219D921EA83A50082389E /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98219D821EA83A50082389E /* MainNavigationController.swift */; };
-		D98219DB21EA83DB0082389E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98219DA21EA83DB0082389E /* MainViewController.swift */; };
 		D98219DE21EA84900082389E /* StoryboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98219DD21EA84900082389E /* StoryboardHelper.swift */; };
 		D98219E121EBC6FF0082389E /* PetsClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D98219E021EBC6FF0082389E /* PetsClassifier.mlmodel */; };
 		D98219E821EBC8470082389E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D98219EA21EBC8470082389E /* Localizable.strings */; };
@@ -37,10 +36,10 @@
 		D91101C72297D7B70043C1A0 /* PicturePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturePresenter.swift; sourceTree = "<group>"; };
 		D91101CB2297D8110043C1A0 /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
 		D91101CD2297D87D0043C1A0 /* PictureRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureRouterInput.swift; sourceTree = "<group>"; };
-		D91101CF2297D9090043C1A0 /* PictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
 		D91101D12297D9E80043C1A0 /* PicturePresenterOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturePresenterOutput.swift; sourceTree = "<group>"; };
 		D91101D32297DA9B0043C1A0 /* PicturePresenterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturePresenterInput.swift; sourceTree = "<group>"; };
 		D91101D72297EDBC0043C1A0 /* PictureService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureService.swift; sourceTree = "<group>"; };
+		D91101D92297F9540043C1A0 /* CoreMLService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMLService.swift; sourceTree = "<group>"; };
 		D98219B721EA7EA50082389E /* CatorDog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatorDog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D98219BA21EA7EA50082389E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D98219BF21EA7EA50082389E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -50,7 +49,6 @@
 		D98219D321EA826E0082389E /* ApplicationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationCoordinator.swift; sourceTree = "<group>"; };
 		D98219D521EA82A00082389E /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
 		D98219D821EA83A50082389E /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
-		D98219DA21EA83DB0082389E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		D98219DD21EA84900082389E /* StoryboardHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardHelper.swift; sourceTree = "<group>"; };
 		D98219E021EBC6FF0082389E /* PetsClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = PetsClassifier.mlmodel; sourceTree = "<group>"; };
 		D98219E921EBC8470082389E /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -91,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				D91101D72297EDBC0043C1A0 /* PictureService.swift */,
+				D91101D92297F9540043C1A0 /* CoreMLService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -99,8 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				D98219BE21EA7EA50082389E /* Main.storyboard */,
-				D98219DA21EA83DB0082389E /* MainViewController.swift */,
-				D91101CF2297D9090043C1A0 /* PictureViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -318,13 +315,11 @@
 			files = (
 				D98219D921EA83A50082389E /* MainNavigationController.swift in Sources */,
 				D91101D82297EDBC0043C1A0 /* PictureService.swift in Sources */,
-				D91101D02297D9090043C1A0 /* PictureViewController.swift in Sources */,
 				D91101CC2297D8110043C1A0 /* MainRouter.swift in Sources */,
 				D91101C42297D7470043C1A0 /* PictureInitializer.swift in Sources */,
 				D91101D42297DA9B0043C1A0 /* PicturePresenterInput.swift in Sources */,
 				D98219BB21EA7EA50082389E /* AppDelegate.swift in Sources */,
 				D98219D221EA822D0082389E /* MainCoordinator.swift in Sources */,
-				D98219DB21EA83DB0082389E /* MainViewController.swift in Sources */,
 				D98219D421EA826E0082389E /* ApplicationCoordinator.swift in Sources */,
 				D98219EE21EBC8D50082389E /* String+Localizable.swift in Sources */,
 				D91101C62297D7980043C1A0 /* PictureRouter.swift in Sources */,
@@ -333,6 +328,7 @@
 				D98219D621EA82A00082389E /* BaseCoordinator.swift in Sources */,
 				D91101CE2297D87D0043C1A0 /* PictureRouterInput.swift in Sources */,
 				D91101D22297D9E80043C1A0 /* PicturePresenterOutput.swift in Sources */,
+				D91101DA2297F9540043C1A0 /* CoreMLService.swift in Sources */,
 				D91101C82297D7B70043C1A0 /* PicturePresenter.swift in Sources */,
 				D98219E121EBC6FF0082389E /* PetsClassifier.mlmodel in Sources */,
 			);

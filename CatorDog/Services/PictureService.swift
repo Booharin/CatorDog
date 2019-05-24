@@ -7,13 +7,13 @@
 //
 import UIKit
 
-protocol PictureServiceOutput {
+protocol IPictureService {
     func getResultLabel(rect: CGRect) -> UILabel
     func getCameraButton(rect: CGRect) -> UIButton
     func getGalleryButton(rect: CGRect) -> UIButton 
 }
 
-class PictureService: PictureServiceOutput {
+class PictureService: IPictureService {
     
     private let fontSize: CGFloat = 24
     
