@@ -7,5 +7,6 @@
 //
 
 protocol PicturePresenterOutput : class {
-    
+    func toCamera()
+    func toGallery()
 }

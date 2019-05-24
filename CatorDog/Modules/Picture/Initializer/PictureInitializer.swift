@@ -18,6 +18,7 @@ class PictureInitializer {
         presenter.view = viewController
         presenter.router = router
         
+        viewController.presenter = presenter
         return viewController
     }
     
