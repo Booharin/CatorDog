@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D91101C42297D7470043C1A0 /* PictureInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91101C32297D7470043C1A0 /* PictureInitializer.swift */; };
+		D91101C62297D7980043C1A0 /* PictureRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91101C52297D7980043C1A0 /* PictureRouter.swift */; };
+		D91101C82297D7B70043C1A0 /* PicturePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91101C72297D7B70043C1A0 /* PicturePresenter.swift */; };
+		D91101CC2297D8110043C1A0 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91101CB2297D8110043C1A0 /* MainRouter.swift */; };
+		D91101CE2297D87D0043C1A0 /* PictureRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91101CD2297D87D0043C1A0 /* PictureRouterInput.swift */; };
+		D91101D22297D9E80043C1A0 /* PicturePresenterOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91101D12297D9E80043C1A0 /* PicturePresenterOutput.swift */; };
+		D91101D42297DA9B0043C1A0 /* PicturePresenterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91101D32297DA9B0043C1A0 /* PicturePresenterInput.swift */; };
+		D91101D82297EDBC0043C1A0 /* PictureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91101D72297EDBC0043C1A0 /* PictureService.swift */; };
+		D91101DA2297F9540043C1A0 /* CoreMLService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91101D92297F9540043C1A0 /* CoreMLService.swift */; };
+		D91101DC2297FDEB0043C1A0 /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91101DB2297FDEB0043C1A0 /* Dependencies.swift */; };
+		D91101DE2298011C0043C1A0 /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91101DD2298011C0043C1A0 /* PictureViewController.swift */; };
 		D98219BB21EA7EA50082389E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98219BA21EA7EA50082389E /* AppDelegate.swift */; };
-		D98219C021EA7EA50082389E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98219BE21EA7EA50082389E /* Main.storyboard */; };
 		D98219C221EA7EA50082389E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98219C121EA7EA50082389E /* Assets.xcassets */; };
 		D98219D221EA822D0082389E /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98219D121EA822D0082389E /* MainCoordinator.swift */; };
 		D98219D421EA826E0082389E /* ApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98219D321EA826E0082389E /* ApplicationCoordinator.swift */; };
 		D98219D621EA82A00082389E /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98219D521EA82A00082389E /* BaseCoordinator.swift */; };
 		D98219D921EA83A50082389E /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98219D821EA83A50082389E /* MainNavigationController.swift */; };
-		D98219DB21EA83DB0082389E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98219DA21EA83DB0082389E /* MainViewController.swift */; };
-		D98219DE21EA84900082389E /* StoryboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98219DD21EA84900082389E /* StoryboardHelper.swift */; };
 		D98219E121EBC6FF0082389E /* PetsClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D98219E021EBC6FF0082389E /* PetsClassifier.mlmodel */; };
 		D98219E821EBC8470082389E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D98219EA21EBC8470082389E /* Localizable.strings */; };
 		D98219EE21EBC8D50082389E /* String+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98219ED21EBC8D50082389E /* String+Localizable.swift */; };
@@ -23,17 +31,25 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D91101C32297D7470043C1A0 /* PictureInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureInitializer.swift; sourceTree = "<group>"; };
+		D91101C52297D7980043C1A0 /* PictureRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureRouter.swift; sourceTree = "<group>"; };
+		D91101C72297D7B70043C1A0 /* PicturePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturePresenter.swift; sourceTree = "<group>"; };
+		D91101CB2297D8110043C1A0 /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		D91101CD2297D87D0043C1A0 /* PictureRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureRouterInput.swift; sourceTree = "<group>"; };
+		D91101D12297D9E80043C1A0 /* PicturePresenterOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturePresenterOutput.swift; sourceTree = "<group>"; };
+		D91101D32297DA9B0043C1A0 /* PicturePresenterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturePresenterInput.swift; sourceTree = "<group>"; };
+		D91101D72297EDBC0043C1A0 /* PictureService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureService.swift; sourceTree = "<group>"; };
+		D91101D92297F9540043C1A0 /* CoreMLService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMLService.swift; sourceTree = "<group>"; };
+		D91101DB2297FDEB0043C1A0 /* Dependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependencies.swift; sourceTree = "<group>"; };
+		D91101DD2298011C0043C1A0 /* PictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
 		D98219B721EA7EA50082389E /* CatorDog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatorDog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D98219BA21EA7EA50082389E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D98219BF21EA7EA50082389E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D98219C121EA7EA50082389E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D98219C621EA7EA50082389E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D98219D121EA822D0082389E /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		D98219D321EA826E0082389E /* ApplicationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationCoordinator.swift; sourceTree = "<group>"; };
 		D98219D521EA82A00082389E /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
 		D98219D821EA83A50082389E /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
-		D98219DA21EA83DB0082389E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		D98219DD21EA84900082389E /* StoryboardHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardHelper.swift; sourceTree = "<group>"; };
 		D98219E021EBC6FF0082389E /* PetsClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = PetsClassifier.mlmodel; sourceTree = "<group>"; };
 		D98219E921EBC8470082389E /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D98219EB21EBC84B0082389E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -52,6 +68,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D91101C92297D7EE0043C1A0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D98219BA21EA7EA50082389E /* AppDelegate.swift */,
+				D91101CA2297D7FD0043C1A0 /* MainRouter */,
+				D91101DB2297FDEB0043C1A0 /* Dependencies.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D91101CA2297D7FD0043C1A0 /* MainRouter */ = {
+			isa = PBXGroup;
+			children = (
+				D91101CB2297D8110043C1A0 /* MainRouter.swift */,
+			);
+			path = MainRouter;
+			sourceTree = "<group>";
+		};
+		D9400A922297CE7B006BCFAD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D91101D72297EDBC0043C1A0 /* PictureService.swift */,
+				D91101D92297F9540043C1A0 /* CoreMLService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D9400AA02297D24E006BCFAD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D91101DD2298011C0043C1A0 /* PictureViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D9400AA12297D25A006BCFAD /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D91101C72297D7B70043C1A0 /* PicturePresenter.swift */,
+				D91101D12297D9E80043C1A0 /* PicturePresenterOutput.swift */,
+				D91101D32297DA9B0043C1A0 /* PicturePresenterInput.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D9400AA22297D263006BCFAD /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				D91101C52297D7980043C1A0 /* PictureRouter.swift */,
+				D91101CD2297D87D0043C1A0 /* PictureRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		D9400AA32297D271006BCFAD /* Initializer */ = {
+			isa = PBXGroup;
+			children = (
+				D91101C32297D7470043C1A0 /* PictureInitializer.swift */,
+			);
+			path = Initializer;
+			sourceTree = "<group>";
+		};
 		D98219AE21EA7EA50082389E = {
 			isa = PBXGroup;
 			children = (
@@ -73,35 +151,37 @@
 			children = (
 				D98219CF21EA82100082389E /* Core */,
 				D98219DF21EBC6E20082389E /* MLModels */,
-				D98219CC21EA81910082389E /* Flow */,
-				D98219DC21EA84790082389E /* Helpers */,
+				D98219CC21EA81910082389E /* Modules */,
+				D9400A922297CE7B006BCFAD /* Services */,
+				D91101C92297D7EE0043C1A0 /* Common */,
 				D98219CE21EA81AE0082389E /* Support */,
 				D98219EC21EBC8A30082389E /* Extensions */,
 			);
 			path = CatorDog;
 			sourceTree = "<group>";
 		};
-		D98219CC21EA81910082389E /* Flow */ = {
+		D98219CC21EA81910082389E /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				D98219CD21EA819B0082389E /* Main */,
+				D98219CD21EA819B0082389E /* Picture */,
 			);
-			path = Flow;
+			path = Modules;
 			sourceTree = "<group>";
 		};
-		D98219CD21EA819B0082389E /* Main */ = {
+		D98219CD21EA819B0082389E /* Picture */ = {
 			isa = PBXGroup;
 			children = (
-				D98219BE21EA7EA50082389E /* Main.storyboard */,
-				D98219DA21EA83DB0082389E /* MainViewController.swift */,
+				D9400AA32297D271006BCFAD /* Initializer */,
+				D9400AA22297D263006BCFAD /* Router */,
+				D9400AA12297D25A006BCFAD /* Presenter */,
+				D9400AA02297D24E006BCFAD /* View */,
 			);
-			path = Main;
+			path = Picture;
 			sourceTree = "<group>";
 		};
 		D98219CE21EA81AE0082389E /* Support */ = {
 			isa = PBXGroup;
 			children = (
-				D98219BA21EA7EA50082389E /* AppDelegate.swift */,
 				D98219C121EA7EA50082389E /* Assets.xcassets */,
 				D98219C621EA7EA50082389E /* Info.plist */,
 				D98219EA21EBC8470082389E /* Localizable.strings */,
@@ -134,14 +214,6 @@
 				D98219D821EA83A50082389E /* MainNavigationController.swift */,
 			);
 			path = MainNavigationController;
-			sourceTree = "<group>";
-		};
-		D98219DC21EA84790082389E /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				D98219DD21EA84900082389E /* StoryboardHelper.swift */,
-			);
-			path = Helpers;
 			sourceTree = "<group>";
 		};
 		D98219DF21EBC6E20082389E /* MLModels */ = {
@@ -203,6 +275,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = D98219AE21EA7EA50082389E;
 			productRefGroup = D98219B821EA7EA50082389E /* Products */;
@@ -221,7 +294,6 @@
 			files = (
 				D98219C221EA7EA50082389E /* Assets.xcassets in Resources */,
 				D98219E821EBC8470082389E /* Localizable.strings in Resources */,
-				D98219C021EA7EA50082389E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,15 +304,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D91101DC2297FDEB0043C1A0 /* Dependencies.swift in Sources */,
 				D98219D921EA83A50082389E /* MainNavigationController.swift in Sources */,
+				D91101D82297EDBC0043C1A0 /* PictureService.swift in Sources */,
+				D91101CC2297D8110043C1A0 /* MainRouter.swift in Sources */,
+				D91101C42297D7470043C1A0 /* PictureInitializer.swift in Sources */,
+				D91101D42297DA9B0043C1A0 /* PicturePresenterInput.swift in Sources */,
 				D98219BB21EA7EA50082389E /* AppDelegate.swift in Sources */,
 				D98219D221EA822D0082389E /* MainCoordinator.swift in Sources */,
-				D98219DB21EA83DB0082389E /* MainViewController.swift in Sources */,
 				D98219D421EA826E0082389E /* ApplicationCoordinator.swift in Sources */,
+				D91101DE2298011C0043C1A0 /* PictureViewController.swift in Sources */,
 				D98219EE21EBC8D50082389E /* String+Localizable.swift in Sources */,
+				D91101C62297D7980043C1A0 /* PictureRouter.swift in Sources */,
 				D98219F021EBCBD60082389E /* CGImagePropertyOrientation.swift in Sources */,
-				D98219DE21EA84900082389E /* StoryboardHelper.swift in Sources */,
 				D98219D621EA82A00082389E /* BaseCoordinator.swift in Sources */,
+				D91101CE2297D87D0043C1A0 /* PictureRouterInput.swift in Sources */,
+				D91101D22297D9E80043C1A0 /* PicturePresenterOutput.swift in Sources */,
+				D91101DA2297F9540043C1A0 /* CoreMLService.swift in Sources */,
+				D91101C82297D7B70043C1A0 /* PicturePresenter.swift in Sources */,
 				D98219E121EBC6FF0082389E /* PetsClassifier.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,14 +329,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D98219BE21EA7EA50082389E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D98219BF21EA7EA50082389E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D98219EA21EBC8470082389E /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -390,8 +463,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 62UUS6482X;
 				INFOPLIST_FILE = CatorDog/Support/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -401,7 +474,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.booharinInc.CatorDog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = CatorDog;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -411,8 +484,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 62UUS6482X;
 				INFOPLIST_FILE = CatorDog/Support/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -422,7 +495,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.booharinInc.CatorDog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = CatorDog;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
