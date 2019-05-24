@@ -10,7 +10,7 @@ import UIKit
 
 final class MainCoordinator: BaseCoordinator {
     
-    var rootController: UINavigationController?
+    weak var rootController: UINavigationController?
     var onFinishFlow: (() -> Void)?
     
     override func start() {
@@ -18,11 +18,11 @@ final class MainCoordinator: BaseCoordinator {
     }
     
     private func showMainModule() {
-        let controller = UIStoryboard(name: "Main", bundle: nil)
-            .instantiateViewController(MainViewController.self)
-        controller.coordinator = self
+        let rootController = MainNavigationController()
         
-        let rootController = MainNavigationController(rootViewController: controller)
+        let viewController = PictureInitializer().initModule(navigationController: rootController)
+        
+        rootController.setViewControllers([viewController], animated: false)
         setAsRoot(rootController)
         self.rootController = rootController
     }
